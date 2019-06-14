@@ -1,0 +1,24 @@
+<header>
+    <h1>Assistent</h1>
+</header>
+<div class="container">
+    <div class="labels">
+        <span id="iName">ITEM</span>
+        <span id="iPrice">PRICE</span>
+        <span id="iQuantity">QUANTITY</span>
+    </div>
+    <div id="inputContainer">
+        <div class="item">
+            <input type="text" placeholder="name" size="6">
+            <input type="text" class="price" placeholder="price" size="6">
+            <input type="text" class="quantity" placeholder="quantity" size="6">
+        </div>
+    </div>
+    <div class="btns">
+        <button id="remove" onclick="removeItem()">-</button>
+        <button id="add" onclick="addItem()">+</button>
+    </div>
+    <button class="priceBtn" onclick="totalPrice()">Total Price</button>
+    <p class="resultText">Total purchase price:</p>
+    <p><span id="number"></span></p>
+</div>

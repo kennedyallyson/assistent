@@ -1,0 +1,93 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #008080;
+}
+
+header h1 {
+    color: #fff;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.container, .item {
+    text-align: center;
+}
+
+.labels {
+    text-align: center;
+    padding: 5%;
+}
+
+#iName {
+    margin-left: 16px;
+}
+
+#iPrice {
+    margin-left: 67px;
+}
+
+#iQuantity {
+    margin-left: 48px;
+}
+
+input {
+    margin: 15px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #008080;
+    background-color: #fff;
+}
+
+.btns {
+    padding: 15px;
+}
+
+#add {
+    position: relative;
+    right: -35%;
+    padding: 10px 15px;
+    border-radius: 100%;
+    border-color: #065535;
+}
+
+#remove {
+    position: relative;
+    right: -35%;
+    padding: 10px 17px;
+    border-radius: 100%;
+    border-color: #cc3333;
+}
+
+.priceBtn {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #008080;
+    color: #fff;
+}
+
+.resultText {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+#number {
+    font-size: 50px;
+    opacity: 0.5;
+}
